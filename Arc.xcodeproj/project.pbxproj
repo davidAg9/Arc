@@ -11,6 +11,23 @@
 		9741EA0B280914CD000DB6F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9741EA0A280914CD000DB6F1 /* ContentView.swift */; };
 		9741EA0D280914D2000DB6F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9741EA0C280914D2000DB6F1 /* Assets.xcassets */; };
 		9741EA10280914D2000DB6F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9741EA0F280914D2000DB6F1 /* Preview Assets.xcassets */; };
+		9741EA1828091AAD000DB6F1 /* ArcUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9741EA1728091AAD000DB6F1 /* ArcUser.swift */; };
+		9741EA1E2809587D000DB6F1 /* PageRecieverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9741EA1D2809587D000DB6F1 /* PageRecieverView.swift */; };
+		9741EA212809599E000DB6F1 /* ProfileSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9741EA202809599E000DB6F1 /* ProfileSettingsView.swift */; };
+		974F0E5E280DCAF800F884FA /* NavBarViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974F0E5D280DCAF800F884FA /* NavBarViewModifier.swift */; };
+		97568B08281463DF009D765E /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 97568B07281463DF009D765E /* Realm */; };
+		97568B0A281463DF009D765E /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 97568B09281463DF009D765E /* RealmSwift */; };
+		97B36560280EDBAC00ABF85A /* ArcSignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3655F280EDBAC00ABF85A /* ArcSignInView.swift */; };
+		97B36562280EDEE800ABF85A /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B36561280EDEE800ABF85A /* AuthViewModel.swift */; };
+		97B36564280EE65F00ABF85A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B36563280EE65F00ABF85A /* AuthService.swift */; };
+		97B36566280EF3DB00ABF85A /* RemoteDatabaseServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B36565280EF3DB00ABF85A /* RemoteDatabaseServices.swift */; };
+		97B3656C280F074100ABF85A /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3656B280F074100ABF85A /* Page.swift */; };
+		97B3656E280F1F2200ABF85A /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3656D280F1F2200ABF85A /* extensions.swift */; };
+		97BE2591280D9C2B00985C11 /* PageRecieverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BE2590280D9C2B00985C11 /* PageRecieverViewModel.swift */; };
+		97D3442128129F4600C6A5D4 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D3442028129F4600C6A5D4 /* constants.swift */; };
+		97D344232812B05100C6A5D4 /* NumberGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D344222812B05100C6A5D4 /* NumberGenerator.swift */; };
+		97ED257A280CB13B0017A509 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97ED2579280CB13B0017A509 /* ProfileViewModel.swift */; };
+		97ED257D280CB27D0017A509 /* ArcStoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97ED257C280CB27D0017A509 /* ArcStoreService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +36,23 @@
 		9741EA0A280914CD000DB6F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9741EA0C280914D2000DB6F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9741EA0F280914D2000DB6F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9741EA1728091AAD000DB6F1 /* ArcUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcUser.swift; sourceTree = "<group>"; };
+		9741EA1D2809587D000DB6F1 /* PageRecieverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageRecieverView.swift; sourceTree = "<group>"; };
+		9741EA202809599E000DB6F1 /* ProfileSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingsView.swift; sourceTree = "<group>"; };
+		974F0E5D280DCAF800F884FA /* NavBarViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarViewModifier.swift; sourceTree = "<group>"; };
+		97B3655B280EDA8900ABF85A /* Arc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Arc.entitlements; sourceTree = "<group>"; };
+		97B3655F280EDBAC00ABF85A /* ArcSignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcSignInView.swift; sourceTree = "<group>"; };
+		97B36561280EDEE800ABF85A /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		97B36563280EE65F00ABF85A /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		97B36565280EF3DB00ABF85A /* RemoteDatabaseServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDatabaseServices.swift; sourceTree = "<group>"; };
+		97B3656A280F03B600ABF85A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		97B3656B280F074100ABF85A /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		97B3656D280F1F2200ABF85A /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		97BE2590280D9C2B00985C11 /* PageRecieverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageRecieverViewModel.swift; sourceTree = "<group>"; };
+		97D3442028129F4600C6A5D4 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		97D344222812B05100C6A5D4 /* NumberGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGenerator.swift; sourceTree = "<group>"; };
+		97ED2579280CB13B0017A509 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		97ED257C280CB27D0017A509 /* ArcStoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcStoreService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97568B0A281463DF009D765E /* RealmSwift in Frameworks */,
+				97568B08281463DF009D765E /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +73,7 @@
 			children = (
 				9741EA07280914CD000DB6F1 /* Arc */,
 				9741EA06280914CD000DB6F1 /* Products */,
+				97B36567280EF77100ABF85A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +88,12 @@
 		9741EA07280914CD000DB6F1 /* Arc */ = {
 			isa = PBXGroup;
 			children = (
+				97B3656A280F03B600ABF85A /* Info.plist */,
+				97B3655B280EDA8900ABF85A /* Arc.entitlements */,
+				974F0E5B280DCAD000F884FA /* Core */,
+				97ED257B280CB16B0017A509 /* Services */,
+				9741EA1B28095857000DB6F1 /* Features */,
+				9741EA1628091A5D000DB6F1 /* Models */,
 				9741EA08280914CD000DB6F1 /* ArcApp.swift */,
 				9741EA0A280914CD000DB6F1 /* ContentView.swift */,
 				9741EA0C280914D2000DB6F1 /* Assets.xcassets */,
@@ -65,6 +108,104 @@
 				9741EA0F280914D2000DB6F1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9741EA1628091A5D000DB6F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9741EA1728091AAD000DB6F1 /* ArcUser.swift */,
+				97B3656B280F074100ABF85A /* Page.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9741EA1B28095857000DB6F1 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				97B3655C280EDB4A00ABF85A /* Authentication */,
+				9741EA1F28095958000DB6F1 /* ProfileSettings */,
+				9741EA1C28095863000DB6F1 /* PageReciever */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		9741EA1C28095863000DB6F1 /* PageReciever */ = {
+			isa = PBXGroup;
+			children = (
+				9741EA1D2809587D000DB6F1 /* PageRecieverView.swift */,
+				97BE2590280D9C2B00985C11 /* PageRecieverViewModel.swift */,
+			);
+			path = PageReciever;
+			sourceTree = "<group>";
+		};
+		9741EA1F28095958000DB6F1 /* ProfileSettings */ = {
+			isa = PBXGroup;
+			children = (
+				9741EA202809599E000DB6F1 /* ProfileSettingsView.swift */,
+				97ED2579280CB13B0017A509 /* ProfileViewModel.swift */,
+			);
+			path = ProfileSettings;
+			sourceTree = "<group>";
+		};
+		974F0E5B280DCAD000F884FA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				974F0E5C280DCADF00F884FA /* viewModifiers */,
+				97B3656D280F1F2200ABF85A /* extensions.swift */,
+				97D3442028129F4600C6A5D4 /* constants.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		974F0E5C280DCADF00F884FA /* viewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				974F0E5D280DCAF800F884FA /* NavBarViewModifier.swift */,
+			);
+			path = viewModifiers;
+			sourceTree = "<group>";
+		};
+		97B3655C280EDB4A00ABF85A /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				97B3655E280EDB6F00ABF85A /* ViewModel */,
+				97B3655D280EDB6300ABF85A /* Views */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		97B3655D280EDB6300ABF85A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				97B3655F280EDBAC00ABF85A /* ArcSignInView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		97B3655E280EDB6F00ABF85A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				97B36561280EDEE800ABF85A /* AuthViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		97B36567280EF77100ABF85A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97ED257B280CB16B0017A509 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				97ED257C280CB27D0017A509 /* ArcStoreService.swift */,
+				97B36563280EE65F00ABF85A /* AuthService.swift */,
+				97B36565280EF3DB00ABF85A /* RemoteDatabaseServices.swift */,
+				97D344222812B05100C6A5D4 /* NumberGenerator.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +224,10 @@
 			dependencies = (
 			);
 			name = Arc;
+			packageProductDependencies = (
+				97568B07281463DF009D765E /* Realm */,
+				97568B09281463DF009D765E /* RealmSwift */,
+			);
 			productName = Arc;
 			productReference = 9741EA05280914CD000DB6F1 /* Arc.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +256,9 @@
 				Base,
 			);
 			mainGroup = 9741E9FC280914CD000DB6F1;
+			packageReferences = (
+				97568B06281463DF009D765E /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 9741EA06280914CD000DB6F1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +286,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				9741EA0B280914CD000DB6F1 /* ContentView.swift in Sources */,
+				97B3656C280F074100ABF85A /* Page.swift in Sources */,
+				9741EA1828091AAD000DB6F1 /* ArcUser.swift in Sources */,
+				974F0E5E280DCAF800F884FA /* NavBarViewModifier.swift in Sources */,
+				97D344232812B05100C6A5D4 /* NumberGenerator.swift in Sources */,
+				97B36560280EDBAC00ABF85A /* ArcSignInView.swift in Sources */,
+				9741EA212809599E000DB6F1 /* ProfileSettingsView.swift in Sources */,
+				97ED257D280CB27D0017A509 /* ArcStoreService.swift in Sources */,
+				97BE2591280D9C2B00985C11 /* PageRecieverViewModel.swift in Sources */,
+				9741EA1E2809587D000DB6F1 /* PageRecieverView.swift in Sources */,
 				9741EA09280914CD000DB6F1 /* ArcApp.swift in Sources */,
+				97B3656E280F1F2200ABF85A /* extensions.swift in Sources */,
+				97B36562280EDEE800ABF85A /* AuthViewModel.swift in Sources */,
+				97ED257A280CB13B0017A509 /* ProfileViewModel.swift in Sources */,
+				97B36566280EF3DB00ABF85A /* RemoteDatabaseServices.swift in Sources */,
+				97B36564280EE65F00ABF85A /* AuthService.swift in Sources */,
+				97D3442128129F4600C6A5D4 /* constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,15 +427,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Arc/Arc.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Arc/Preview Content\"";
 				DEVELOPMENT_TEAM = R3K2497LK5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Arc/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -284,7 +450,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -293,15 +459,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Arc/Arc.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Arc/Preview Content\"";
 				DEVELOPMENT_TEAM = R3K2497LK5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Arc/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -313,7 +482,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -339,6 +508,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		97568B06281463DF009D765E /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.25.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		97568B07281463DF009D765E /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97568B06281463DF009D765E /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		97568B09281463DF009D765E /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97568B06281463DF009D765E /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9741E9FD280914CD000DB6F1 /* Project object */;
 }

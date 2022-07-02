@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21F5048e" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="ArcUser" representedClassName=".ArcUser" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="pgNumber" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PageModel" representedClassName=".PageModel" syncable="YES">
+        <attribute name="date" attributeType="Date" defaultDateTimeInterval="672075540" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="message" attributeType="String" defaultValueString="" allowsCloudEncryption="YES"/>
+        <attribute name="pgNumber" attributeType="String" defaultValueString=""/>
+    </entity>
+    <configuration name="ArcPages" usedWithCloudKit="YES">
+        <memberEntity name="PageModel"/>
+    </configuration>
+    <configuration name="ArcUser" usedWithCloudKit="YES">
+        <memberEntity name="ArcUser"/>
+    </configuration>
+    <elements>
+        <element name="ArcUser" positionX="-63" positionY="9" width="128" height="74"/>
+        <element name="PageModel" positionX="-63" positionY="-18" width="128" height="89"/>
+    </elements>
+</model>

@@ -8,9 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var authVm :AuthViewModel
+    @State private var selectedIndex = 0
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            if  authVm.userSignedIn{
+                TabView(selection:$selectedIndex){
+                    PageRecieverView()
+                        .navigationBarHidden(true)
+                        .tabItem {
+                            Image(systemName: "dot.radiowaves.left.and.right")
+                        }.tag(0)
+                    
+                    ProfileSettingsView()
+                        .tabItem {
+                            Image(systemName: "person")
+                        }.tag(1)
+
+                }.ignoresSafeArea()
+                .foregroundColor(.accentColor)
+                .background(Color(.arcBackground))
+            }else {
+                ArcSignInView()
+            }
+        }
     }
 }
 
